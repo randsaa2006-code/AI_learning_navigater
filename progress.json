@@ -1,0 +1,37 @@
+{
+  "goal": "robotics",
+  "completed": [
+    "python",
+    "math",
+    "statistics",
+    "data_analysis",
+    "ml_project"
+  ],
+  "history": [
+    {
+      "topic": "python",
+      "name": "Python Programming",
+      "date": "2026-09-07"
+    },
+    {
+      "topic": "math",
+      "name": "Mathematics (Linear Algebra, Calculus)",
+      "date": "2026-09-07"
+    },
+    {
+      "topic": "statistics",
+      "name": "Statistics & Probability",
+      "date": "2026-09-07"
+    },
+    {
+      "topic": "data_analysis",
+      "name": "Data Analysis (Pandas, NumPy)",
+      "date": "2026-09-07"
+    },
+    {
+      "topic": "ml_project",
+      "name": "First ML Project (Regression/Classification)",
+      "date": "2026-09-07"
+    }
+  ]
+}

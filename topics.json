@@ -1,0 +1,266 @@
+{
+  "topics": {
+    "python": {
+      "name": "Python Programming",
+      "level": "beginner",
+      "prerequisites": [],
+      "goals": [
+        "ai",
+        "robotics",
+        "research"
+      ],
+      "keywords": [
+        "python",
+        "coding",
+        "programming",
+        "scripting",
+        "wrote a script"
+      ],
+      "project_idea": "Build a small CLI tool (e.g. a to-do list or unit converter) to practice core syntax."
+    },
+    "math": {
+      "name": "Mathematics (Linear Algebra, Calculus)",
+      "level": "beginner",
+      "prerequisites": [],
+      "goals": [
+        "ai",
+        "robotics",
+        "research"
+      ],
+      "keywords": [
+        "linear algebra",
+        "calculus",
+        "matrices",
+        "vectors",
+        "math"
+      ],
+      "project_idea": "Implement matrix operations (add, multiply, transpose) from scratch without NumPy."
+    },
+    "statistics": {
+      "name": "Statistics & Probability",
+      "level": "beginner",
+      "prerequisites": [
+        "math"
+      ],
+      "goals": [
+        "ai",
+        "robotics",
+        "research"
+      ],
+      "keywords": [
+        "statistics",
+        "probability",
+        "distribution",
+        "hypothesis testing"
+      ],
+      "project_idea": "Analyze a public dataset (e.g. from Kaggle) and report mean, variance, and key distributions."
+    },
+    "data_analysis": {
+      "name": "Data Analysis (Pandas, NumPy)",
+      "level": "beginner",
+      "prerequisites": [
+        "python"
+      ],
+      "goals": [
+        "ai",
+        "robotics",
+        "research"
+      ],
+      "keywords": [
+        "pandas",
+        "numpy",
+        "data analysis",
+        "dataframe",
+        "cleaned data",
+        "data cleaning"
+      ],
+      "project_idea": "Clean and explore a messy real-world CSV dataset using Pandas; produce a short EDA report."
+    },
+    "ml_basics": {
+      "name": "Machine Learning Basics",
+      "level": "beginner",
+      "prerequisites": [
+        "python",
+        "statistics",
+        "data_analysis"
+      ],
+      "goals": [
+        "ai",
+        "robotics",
+        "research"
+      ],
+      "keywords": [
+        "machine learning",
+        "ml basics",
+        "supervised learning",
+        "unsupervised learning",
+        "regression basics",
+        "classification basics"
+      ],
+      "project_idea": "Train a simple classifier (e.g. Iris dataset) using scikit-learn and evaluate its accuracy."
+    },
+    "ml_project": {
+      "name": "First ML Project (Regression/Classification)",
+      "level": "intermediate",
+      "prerequisites": [
+        "ml_basics"
+      ],
+      "goals": [
+        "ai",
+        "robotics",
+        "research"
+      ],
+      "keywords": [
+        "prediction model",
+        "ml project",
+        "built a model",
+        "trained a model",
+        "built my first ml"
+      ],
+      "project_idea": "Build an end-to-end prediction project (e.g. house price prediction) with a written report."
+    },
+    "deep_learning": {
+      "name": "Deep Learning Fundamentals",
+      "level": "intermediate",
+      "prerequisites": [
+        "ml_project"
+      ],
+      "goals": [
+        "ai",
+        "robotics",
+        "research"
+      ],
+      "keywords": [
+        "deep learning",
+        "neural network",
+        "neural networks",
+        "backpropagation"
+      ],
+      "project_idea": "Build a simple feedforward neural network from scratch (no framework) on a toy dataset."
+    },
+    "pytorch": {
+      "name": "PyTorch / TensorFlow",
+      "level": "intermediate",
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "goals": [
+        "ai",
+        "robotics",
+        "research"
+      ],
+      "keywords": [
+        "pytorch",
+        "tensorflow",
+        "tensor",
+        "training on gpu"
+      ],
+      "project_idea": "Re-implement your deep learning project using PyTorch or TensorFlow instead of from scratch."
+    },
+    "cnn_project": {
+      "name": "Build a CNN Project",
+      "level": "intermediate",
+      "prerequisites": [
+        "pytorch"
+      ],
+      "goals": [
+        "ai",
+        "robotics"
+      ],
+      "keywords": [
+        "cnn",
+        "convolutional",
+        "image classification project"
+      ],
+      "project_idea": "Build an image classifier (e.g. cats vs dogs) using a CNN architecture."
+    },
+    "computer_vision": {
+      "name": "Computer Vision",
+      "level": "advanced",
+      "prerequisites": [
+        "cnn_project"
+      ],
+      "goals": [
+        "ai",
+        "robotics"
+      ],
+      "keywords": [
+        "computer vision",
+        "image recognition",
+        "object detection"
+      ],
+      "project_idea": "Build an object detection or face-detection demo using OpenCV + a pretrained model."
+    },
+    "nlp": {
+      "name": "Natural Language Processing",
+      "level": "advanced",
+      "prerequisites": [
+        "pytorch"
+      ],
+      "goals": [
+        "ai",
+        "research"
+      ],
+      "keywords": [
+        "nlp",
+        "natural language processing",
+        "text classification",
+        "transformer",
+        "bert"
+      ],
+      "project_idea": "Build a text classifier (e.g. sentiment analysis) using a pretrained transformer model."
+    },
+    "reinforcement_learning": {
+      "name": "Reinforcement Learning",
+      "level": "advanced",
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "goals": [
+        "robotics",
+        "research"
+      ],
+      "keywords": [
+        "reinforcement learning",
+        "rl agent",
+        "reward function",
+        "q-learning"
+      ],
+      "project_idea": "Train an RL agent to solve a simple environment (e.g. CartPole with OpenAI Gym)."
+    },
+    "robotics_control": {
+      "name": "Robotics: Control Systems & ROS",
+      "level": "advanced",
+      "prerequisites": [
+        "computer_vision"
+      ],
+      "goals": [
+        "robotics"
+      ],
+      "keywords": [
+        "robotics",
+        "ros",
+        "control systems",
+        "robot arm"
+      ],
+      "project_idea": "Simulate a basic robot arm or mobile robot control loop using ROS or a simulator like Gazebo."
+    },
+    "research_methods": {
+      "name": "Research Methods & Reading Papers",
+      "level": "advanced",
+      "prerequisites": [
+        "deep_learning"
+      ],
+      "goals": [
+        "research"
+      ],
+      "keywords": [
+        "research paper",
+        "literature review",
+        "read a paper",
+        "published"
+      ],
+      "project_idea": "Read and summarize 2-3 papers in your area of interest; write a one-page critical review."
+    }
+  }
+}
